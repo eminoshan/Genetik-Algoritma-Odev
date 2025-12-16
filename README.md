@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Proje Hakkında
+##  Proje Hakkında
 
 Bu projede, **genetik algoritma** kullanarak bir biyoteknoloji firmasının en verimli test çözeltisini bulmasını simüle ettik. Temel olarak, iki farklı kimyasal reaktifin en optimal oranlarını bulmaya çalışıyoruz.
 
@@ -17,7 +17,7 @@ Açıkçası, bu tip optimizasyon problemlerini klasik yöntemlerle çözmek zor
 
 ---
 
-## 🎯 Problem Tanımı
+##  Problem Tanımı
 
 ### Amaç Fonksiyonu
 ```
@@ -36,7 +36,7 @@ Bu fonksiyon test çözeltisinin **hassasiyet puanını** temsil ediyor. Ne kada
 
 ---
 
-## 🧬 Genetik Algoritma Nasıl Çalışıyor?
+##  Genetik Algoritma Nasıl Çalışıyor?
 
 ### 1. **Başlangıç Popülasyonu Oluştur**
 50 tane rastgele "birey" (çözüm adayı) oluşturduk. Her birey (x₁, x₂) değerlerinden oluşuyor.
@@ -67,7 +67,7 @@ Rastgele olarak birlerin değerlerini değiştirebiliriz. Bu, algoritmaya "keşf
 
 ---
 
-## 💻 Kodun Yapısı
+##  Kodun Yapısı
 
 ### Fonksiyonlar:
 
@@ -93,17 +93,17 @@ Rastgele olarak birlerin değerlerini değiştirebiliriz. Bu, algoritmaya "keşf
 
 ---
 
-## 📊 Sonuçlar
+##  Sonuçlar
 
 Algoritma çalıştığında şu çıktıları alıyoruz:
 
 ```
-🎯 EN İYİ SONUÇLAR:
+ EN İYİ SONUÇLAR:
   • Uygunluk Puanı: ~145.50
   • Reaktif A Oranı: %X.XX
   • Reaktif B Oranı: %Y.YY
 
-📋 KISIT KONTROLLERİ:
+ KISIT KONTROLLERİ:
   • x1 + x2 ≤ 100: SAĞLANDI ✓
   • x1 ≥ 25: SAĞLANDI ✓
 ```
@@ -113,7 +113,7 @@ Algoritmanın çalışması sırasında, en iyi uygunluk değerinin nesiller boy
 
 ---
 
-## 🔧 Parametreler
+##  Parametreler
 
 ```python
 POPULATION_SIZE = 50      # Popülasyondaki birey sayısı
@@ -129,7 +129,7 @@ Bu değerleri değiştirerek farklı sonuçlar alabilirsin:
 
 ---
 
-## 🚀 Nasıl Çalıştırılır
+##  Nasıl Çalıştırılır
 
 1. **Gerekli Kütüphaneleri Kur:**
 ```bash
@@ -147,7 +147,7 @@ Proje1_Senaryo7.ipynb
 
 ---
 
-## 📚 Öğrendiklerim
+##  Öğrendiklerim
 
 - Genetik algoritma gerçekten çalışıyor ve iyi sonuçlar veriyor
 - Kısıtları doğru uygulamak çok önemli (penalty sistemi)
@@ -157,7 +157,7 @@ Proje1_Senaryo7.ipynb
 
 ---
 
-## 🤔 Olası Geliştirmeler
+##  Olası Geliştirmeler
 
 - Daha karmaşık kısıtlar ekleyebiliriz
 - Popülasyon dinamik hale getirilebilir (başlangıçta 50, sonra 100)
@@ -166,7 +166,7 @@ Proje1_Senaryo7.ipynb
 
 ---
 
-## 📝 Notlar
+##  Notlar
 
 Bu proje, yapay zeka dersinin temel konseptlerini anlamamız için hazırlandı. Amaç fonksiyonu bilimsel bir dayanağı olmasa da, genetik algoritmaların nasıl çalıştığını ve gerçek optimizasyon problemlerinde nasıl kullanılabileceğini öğrendik.
 
@@ -174,3 +174,4 @@ Bu proje, yapay zeka dersinin temel konseptlerini anlamamız için hazırlandı.
 
 **Proje Tarihi:** Aralık 2025  
 **Versiyon:** 1.0
+
